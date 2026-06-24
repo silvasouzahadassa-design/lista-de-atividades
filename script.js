@@ -5,4 +5,4 @@ const todoUL = document.getElementById('todo')
 const todos = JSON.parse(localStorage.getItem('todos'))
 
 if(todos){
-    todos.forEach (todo => (todo))}
+    todos.forEach (todo => addTodo (todo))}
